@@ -20,7 +20,7 @@ LANGCHAIN_TRACING_V2="true"
 
 Prompt=ChatPromptTemplate.from_messages(
 [
-   ("system","You gonna answer everythink i ask about cricket"),
+   ("system","You gonna be my fitness trainer and nutritionist.help me"),
    ("user","Question:{question}")
 ]
 )
